@@ -78,11 +78,16 @@
     @apply bg-background text-foreground;
     font-family: 'Inter', sans-serif;
   }
+
+  /* Add background image class */
+  .bg-assamese-bg {
+    background-image: url('/lovable-uploads/4edad4ae-810e-468c-89c8-a8427767bdcf.png');
+  }
 }
 
 /* Glass effect */
 .glass {
-  @apply bg-white bg-opacity-10 backdrop-blur-md border border-white border-opacity-20 shadow-lg;
+  @apply bg-white/20 backdrop-blur-md border border-white/30 shadow-lg;
 }
 
 /* Search container animations */
@@ -110,4 +115,25 @@
 /* Wave animation for voice input */
 .voice-wave {
   @apply h-6 w-1 mx-0.5 rounded-full inline-block transform origin-bottom;
+}
+
+/* Custom animations for the gallery */
+.image-fade-in {
+  animation: fadeIn 0.6s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Enhance glass effect for better visibility with background */
+.enhanced-glass {
+  @apply bg-white/30 backdrop-blur-lg border border-white/40 shadow-xl;
 }
