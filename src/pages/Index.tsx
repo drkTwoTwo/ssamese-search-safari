@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import SearchBar from '@/components/SearchBar';
 import VoiceSearch from '@/components/VoiceSearch';
@@ -6,7 +5,7 @@ import ImageSearch from '@/components/ImageSearch';
 import SearchResults from '@/components/SearchResults';
 import { textSearch, voiceSearch, imageSearch } from '@/services/api';
 import { SearchResponse } from '@/types';
-import { toast } from '@/components/ui/sonner';
+import { toast } from 'sonner';
 
 const Index = () => {
   const [searchResults, setSearchResults] = useState<SearchResponse | null>(null);

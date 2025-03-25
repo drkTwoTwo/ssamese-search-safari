@@ -1,8 +1,7 @@
-
 import React, { useState, useRef, useEffect } from 'react';
 import { Mic } from 'lucide-react';
 import { cn } from '@/lib/utils';
-import { toast } from '@/components/ui/sonner';
+import { toast } from 'sonner';
 
 interface VoiceSearchProps {
   onVoiceData: (audioBlob: Blob) => void;

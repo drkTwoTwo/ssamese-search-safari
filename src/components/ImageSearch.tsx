@@ -1,8 +1,7 @@
-
 import React, { useState, useRef } from 'react';
 import { Image, Upload, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
-import { toast } from '@/components/ui/sonner';
+import { toast } from 'sonner';
 
 interface ImageSearchProps {
   onImageSelect: (file: File) => void;
