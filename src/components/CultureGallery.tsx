@@ -5,6 +5,21 @@ import { motion } from 'framer-motion';
 const CultureGallery = () => {
   const images = [
     {
+      src: '/lovable-uploads/4754ff98-e28b-4ad9-8d88-b41d7b2e8fa3.png',
+      alt: 'Tea garden workers in Assam harvesting tea leaves',
+      title: 'Tea Plantation'
+    },
+    {
+      src: '/lovable-uploads/adeb94dd-21aa-4bd6-8b5a-13b5517f6e20.png',
+      alt: 'Tea garden workers with traditional baskets',
+      title: 'Tea Harvesting'
+    },
+    {
+      src: '/lovable-uploads/e5815e41-b456-4a8a-b1b0-9ad3421aecdb.png',
+      alt: 'Bihu dancers performing traditional Assamese dance',
+      title: 'Bihu Dance'
+    },
+    {
       src: '/lovable-uploads/1c0d8c15-052d-4254-8a4a-2bf8d1227ee2.png',
       alt: 'Bihu dancers performing traditional Assamese dance',
       title: 'Bihu Dance'
@@ -30,7 +45,7 @@ const CultureGallery = () => {
     <div className="w-full max-w-5xl mx-auto px-4 mb-16">
       <h2 className="text-2xl font-bold text-white text-center mb-8 drop-shadow-md">Explore Assamese Culture</h2>
       
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {images.map((image, index) => (
           <motion.div
             key={index}

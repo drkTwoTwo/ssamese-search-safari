@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
@@ -81,7 +80,10 @@
 
   /* Add background image class */
   .bg-assamese-bg {
-    background-image: url('/lovable-uploads/4edad4ae-810e-468c-89c8-a8427767bdcf.png');
+    background-image: url('/lovable-uploads/adeb94dd-21aa-4bd6-8b5a-13b5517f6e20.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
   }
 }
 
