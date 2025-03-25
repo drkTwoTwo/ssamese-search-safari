@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
@@ -6,65 +7,65 @@
 
 @layer base {
   :root {
-    --background: 210 33% 99%;
-    --foreground: 222 47% 11%;
+    --background: 130 30% 94%;
+    --foreground: 141 38% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222 47% 11%;
+    --card-foreground: 141 38% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222 47% 11%;
+    --popover-foreground: 141 38% 15%;
 
-    --primary: 210 100% 35%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 142 50% 30%;
+    --primary-foreground: 142 40% 98%;
 
-    --secondary: 210 40% 96%;
-    --secondary-foreground: 222 47% 11%;
+    --secondary: 120 15% 90%;
+    --secondary-foreground: 141 38% 15%;
 
-    --muted: 210 40% 96%;
-    --muted-foreground: 215 16% 47%;
+    --muted: 120 15% 90%;
+    --muted-foreground: 120 10% 40%;
 
-    --accent: 210 40% 96%;
-    --accent-foreground: 222 47% 11%;
+    --accent: 27 80% 50%;
+    --accent-foreground: 142 40% 98%;
 
     --destructive: 0 84% 60%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 142 40% 98%;
 
-    --border: 214 32% 91%;
-    --input: 214 32% 91%;
-    --ring: 222 84% 5%;
+    --border: 120 15% 85%;
+    --input: 120 15% 85%;
+    --ring: 142 50% 30%;
 
     --radius: 0.75rem;
   }
 
   .dark {
-    --background: 222 47% 11%;
-    --foreground: 210 40% 98%;
+    --background: 141 38% 15%;
+    --foreground: 142 40% 98%;
 
-    --card: 222 47% 11%;
-    --card-foreground: 210 40% 98%;
+    --card: 141 38% 15%;
+    --card-foreground: 142 40% 98%;
 
-    --popover: 222 47% 11%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 141 38% 15%;
+    --popover-foreground: 142 40% 98%;
 
-    --primary: 210 100% 50%;
-    --primary-foreground: 222 47% 11%;
+    --primary: 142 50% 50%;
+    --primary-foreground: 141 38% 15%;
 
-    --secondary: 217 33% 18%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 120 20% 25%;
+    --secondary-foreground: 142 40% 98%;
 
-    --muted: 217 33% 18%;
-    --muted-foreground: 215 20% 65%;
+    --muted: 120 20% 25%;
+    --muted-foreground: 120 10% 70%;
 
-    --accent: 217 33% 18%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 27 90% 55%;
+    --accent-foreground: 141 38% 15%;
 
     --destructive: 0 63% 31%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 142 40% 98%;
 
-    --border: 217 33% 18%;
-    --input: 217 33% 18%;
-    --ring: 213 27% 84%;
+    --border: 120 20% 25%;
+    --input: 120 20% 25%;
+    --ring: 143 50% 70%;
   }
 }
 
@@ -87,9 +88,14 @@
   }
 }
 
-/* Glass effect */
+/* Glass effect - updated to match tea garden theme */
 .glass {
-  @apply bg-white/20 backdrop-blur-md border border-white/30 shadow-lg;
+  @apply bg-assamese-tea-dark/10 backdrop-blur-md border border-assamese-tea-light/20 shadow-lg;
+}
+
+/* Enhanced glass effect for better visibility with background */
+.enhanced-glass {
+  @apply bg-assamese-earth-brown/30 backdrop-blur-lg border border-assamese-tea-light/30 shadow-xl;
 }
 
 /* Search container animations */
@@ -133,9 +139,4 @@
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-/* Enhance glass effect for better visibility with background */
-.enhanced-glass {
-  @apply bg-white/30 backdrop-blur-lg border border-white/40 shadow-xl;
 }

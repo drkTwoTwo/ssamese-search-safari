@@ -59,7 +59,22 @@ export default {
 					lighter: '#5DA3FA',
 					lightest: '#BEDCFF',
 					dark: '#144272',
-					darkest: '#0A2647'
+					darkest: '#0A2647',
+					tea: {
+						leaf: '#2E7D32',
+						dark: '#1B5E20',
+						light: '#4CAF50',
+						accent: '#81C784',
+					},
+					earth: {
+						brown: '#5D4037',
+						light: '#8D6E63',
+						dark: '#3E2723',
+					},
+					sky: {
+						blue: '#1976D2',
+						light: '#64B5F6',
+					}
 				}
 			},
 			borderRadius: {

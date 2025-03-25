@@ -64,20 +64,20 @@ const Index = () => {
   return (
     <div className="min-h-screen flex flex-col items-center bg-assamese-bg bg-cover bg-fixed bg-center relative">
       {/* Background overlay for better readability */}
-      <div className="absolute inset-0 bg-black/20 backdrop-blur-sm z-0"></div>
+      <div className="absolute inset-0 bg-assamese-earth-dark/30 backdrop-blur-sm z-0"></div>
       
       <div className="relative z-10 w-full max-w-7xl mx-auto">
         {/* Header with logo and title */}
         <header className="w-full py-6 flex flex-col items-center justify-center">
           <div className="flex items-center justify-center mb-2">
-            <div className="w-16 h-16 rounded-full bg-assamese-light flex items-center justify-center text-white font-bold text-3xl shadow-lg">
+            <div className="w-16 h-16 rounded-full bg-assamese-tea-dark flex items-center justify-center text-assamese-tea-accent font-bold text-3xl shadow-lg">
               A
             </div>
           </div>
-          <h1 className="text-4xl font-bold tracking-tight mb-1 text-white drop-shadow-lg">
+          <h1 className="text-4xl font-bold tracking-tight mb-1 text-assamese-tea-light drop-shadow-lg">
             Assamese Cultural Search
           </h1>
-          <p className="text-lg text-white/90 text-center max-w-lg mx-auto mb-8 drop-shadow">
+          <p className="text-lg text-assamese-tea-accent text-center max-w-lg mx-auto mb-8 drop-shadow">
             Discover the rich cultural heritage, traditions, and art of Assam
           </p>
         </header>
